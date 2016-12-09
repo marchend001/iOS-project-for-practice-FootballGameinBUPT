@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8915E9541DFACEC40091D5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9531DFACEC40091D5AA /* AppDelegate.swift */; };
+		8915E9561DFACEC40091D5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9551DFACEC40091D5AA /* ViewController.swift */; };
+		8915E9591DFACEC40091D5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8915E9571DFACEC40091D5AA /* Main.storyboard */; };
+		8915E95B1DFACEC40091D5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8915E95A1DFACEC40091D5AA /* Assets.xcassets */; };
+		8915E95E1DFACEC40091D5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8915E95C1DFACEC40091D5AA /* LaunchScreen.storyboard */; };
+		8915E9691DFACEC40091D5AA /* NokiaFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9681DFACEC40091D5AA /* NokiaFootballTests.swift */; };
+		8915E9741DFACEC40091D5AA /* NokiaFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9731DFACEC40091D5AA /* NokiaFootballUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8915E9651DFACEC40091D5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8915E9481DFACEC40091D5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8915E94F1DFACEC40091D5AA;
+			remoteInfo = NokiaFootball;
+		};
+		8915E9701DFACEC40091D5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8915E9481DFACEC40091D5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8915E94F1DFACEC40091D5AA;
+			remoteInfo = NokiaFootball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8915E9501DFACEC40091D5AA /* NokiaFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NokiaFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8915E9531DFACEC40091D5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8915E9551DFACEC40091D5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8915E9581DFACEC40091D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8915E95A1DFACEC40091D5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8915E95D1DFACEC40091D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8915E95F1DFACEC40091D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8915E9641DFACEC40091D5AA /* NokiaFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NokiaFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8915E9681DFACEC40091D5AA /* NokiaFootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaFootballTests.swift; sourceTree = "<group>"; };
+		8915E96A1DFACEC40091D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8915E96F1DFACEC40091D5AA /* NokiaFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NokiaFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8915E9731DFACEC40091D5AA /* NokiaFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaFootballUITests.swift; sourceTree = "<group>"; };
+		8915E9751DFACEC40091D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8915E94D1DFACEC40091D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8915E9611DFACEC40091D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8915E96C1DFACEC40091D5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8915E9471DFACEC40091D5AA = {
+			isa = PBXGroup;
+			children = (
+				8915E9521DFACEC40091D5AA /* NokiaFootball */,
+				8915E9671DFACEC40091D5AA /* NokiaFootballTests */,
+				8915E9721DFACEC40091D5AA /* NokiaFootballUITests */,
+				8915E9511DFACEC40091D5AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8915E9511DFACEC40091D5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8915E9501DFACEC40091D5AA /* NokiaFootball.app */,
+				8915E9641DFACEC40091D5AA /* NokiaFootballTests.xctest */,
+				8915E96F1DFACEC40091D5AA /* NokiaFootballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8915E9521DFACEC40091D5AA /* NokiaFootball */ = {
+			isa = PBXGroup;
+			children = (
+				8915E9531DFACEC40091D5AA /* AppDelegate.swift */,
+				8915E9551DFACEC40091D5AA /* ViewController.swift */,
+				8915E9571DFACEC40091D5AA /* Main.storyboard */,
+				8915E95A1DFACEC40091D5AA /* Assets.xcassets */,
+				8915E95C1DFACEC40091D5AA /* LaunchScreen.storyboard */,
+				8915E95F1DFACEC40091D5AA /* Info.plist */,
+			);
+			path = NokiaFootball;
+			sourceTree = "<group>";
+		};
+		8915E9671DFACEC40091D5AA /* NokiaFootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				8915E9681DFACEC40091D5AA /* NokiaFootballTests.swift */,
+				8915E96A1DFACEC40091D5AA /* Info.plist */,
+			);
+			path = NokiaFootballTests;
+			sourceTree = "<group>";
+		};
+		8915E9721DFACEC40091D5AA /* NokiaFootballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8915E9731DFACEC40091D5AA /* NokiaFootballUITests.swift */,
+				8915E9751DFACEC40091D5AA /* Info.plist */,
+			);
+			path = NokiaFootballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8915E94F1DFACEC40091D5AA /* NokiaFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8915E9781DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootball" */;
+			buildPhases = (
+				8915E94C1DFACEC40091D5AA /* Sources */,
+				8915E94D1DFACEC40091D5AA /* Frameworks */,
+				8915E94E1DFACEC40091D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NokiaFootball;
+			productName = NokiaFootball;
+			productReference = 8915E9501DFACEC40091D5AA /* NokiaFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8915E9631DFACEC40091D5AA /* NokiaFootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8915E97B1DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootballTests" */;
+			buildPhases = (
+				8915E9601DFACEC40091D5AA /* Sources */,
+				8915E9611DFACEC40091D5AA /* Frameworks */,
+				8915E9621DFACEC40091D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8915E9661DFACEC40091D5AA /* PBXTargetDependency */,
+			);
+			name = NokiaFootballTests;
+			productName = NokiaFootballTests;
+			productReference = 8915E9641DFACEC40091D5AA /* NokiaFootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8915E96E1DFACEC40091D5AA /* NokiaFootballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8915E97E1DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootballUITests" */;
+			buildPhases = (
+				8915E96B1DFACEC40091D5AA /* Sources */,
+				8915E96C1DFACEC40091D5AA /* Frameworks */,
+				8915E96D1DFACEC40091D5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8915E9711DFACEC40091D5AA /* PBXTargetDependency */,
+			);
+			name = NokiaFootballUITests;
+			productName = NokiaFootballUITests;
+			productReference = 8915E96F1DFACEC40091D5AA /* NokiaFootballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8915E9481DFACEC40091D5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "龚茜";
+				TargetAttributes = {
+					8915E94F1DFACEC40091D5AA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8915E9631DFACEC40091D5AA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8915E94F1DFACEC40091D5AA;
+					};
+					8915E96E1DFACEC40091D5AA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8915E94F1DFACEC40091D5AA;
+					};
+				};
+			};
+			buildConfigurationList = 8915E94B1DFACEC40091D5AA /* Build configuration list for PBXProject "NokiaFootball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8915E9471DFACEC40091D5AA;
+			productRefGroup = 8915E9511DFACEC40091D5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8915E94F1DFACEC40091D5AA /* NokiaFootball */,
+				8915E9631DFACEC40091D5AA /* NokiaFootballTests */,
+				8915E96E1DFACEC40091D5AA /* NokiaFootballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8915E94E1DFACEC40091D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8915E95E1DFACEC40091D5AA /* LaunchScreen.storyboard in Resources */,
+				8915E95B1DFACEC40091D5AA /* Assets.xcassets in Resources */,
+				8915E9591DFACEC40091D5AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8915E9621DFACEC40091D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8915E96D1DFACEC40091D5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8915E94C1DFACEC40091D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8915E9561DFACEC40091D5AA /* ViewController.swift in Sources */,
+				8915E9541DFACEC40091D5AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8915E9601DFACEC40091D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8915E9691DFACEC40091D5AA /* NokiaFootballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8915E96B1DFACEC40091D5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8915E9741DFACEC40091D5AA /* NokiaFootballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8915E9661DFACEC40091D5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8915E94F1DFACEC40091D5AA /* NokiaFootball */;
+			targetProxy = 8915E9651DFACEC40091D5AA /* PBXContainerItemProxy */;
+		};
+		8915E9711DFACEC40091D5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8915E94F1DFACEC40091D5AA /* NokiaFootball */;
+			targetProxy = 8915E9701DFACEC40091D5AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8915E9571DFACEC40091D5AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8915E9581DFACEC40091D5AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8915E95C1DFACEC40091D5AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8915E95D1DFACEC40091D5AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8915E9761DFACEC40091D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8915E9771DFACEC40091D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8915E9791DFACEC40091D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NokiaFootball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8915E97A1DFACEC40091D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NokiaFootball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8915E97C1DFACEC40091D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NokiaFootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NokiaFootball.app/NokiaFootball";
+			};
+			name = Debug;
+		};
+		8915E97D1DFACEC40091D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NokiaFootballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NokiaFootball.app/NokiaFootball";
+			};
+			name = Release;
+		};
+		8915E97F1DFACEC40091D5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NokiaFootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NokiaFootball;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8915E9801DFACEC40091D5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NokiaFootballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NokiaFootball;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8915E94B1DFACEC40091D5AA /* Build configuration list for PBXProject "NokiaFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8915E9761DFACEC40091D5AA /* Debug */,
+				8915E9771DFACEC40091D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8915E9781DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8915E9791DFACEC40091D5AA /* Debug */,
+				8915E97A1DFACEC40091D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8915E97B1DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8915E97C1DFACEC40091D5AA /* Debug */,
+				8915E97D1DFACEC40091D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8915E97E1DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8915E97F1DFACEC40091D5AA /* Debug */,
+				8915E9801DFACEC40091D5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8915E9481DFACEC40091D5AA /* Project object */;
+}
