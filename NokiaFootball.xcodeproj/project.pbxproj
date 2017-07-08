@@ -10,10 +10,38 @@
 		8915E9541DFACEC40091D5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9531DFACEC40091D5AA /* AppDelegate.swift */; };
 		8915E9561DFACEC40091D5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9551DFACEC40091D5AA /* ViewController.swift */; };
 		8915E9591DFACEC40091D5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8915E9571DFACEC40091D5AA /* Main.storyboard */; };
-		8915E95B1DFACEC40091D5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8915E95A1DFACEC40091D5AA /* Assets.xcassets */; };
 		8915E95E1DFACEC40091D5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8915E95C1DFACEC40091D5AA /* LaunchScreen.storyboard */; };
 		8915E9691DFACEC40091D5AA /* NokiaFootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9681DFACEC40091D5AA /* NokiaFootballTests.swift */; };
 		8915E9741DFACEC40091D5AA /* NokiaFootballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9731DFACEC40091D5AA /* NokiaFootballUITests.swift */; };
+		8915E9831DFAD37C0091D5AA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8915E9821DFAD37C0091D5AA /* libsqlite3.0.tbd */; };
+		8915E9891DFADDBB0091D5AA /* FootballTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E9881DFADDBB0091D5AA /* FootballTeam.swift */; };
+		8915E98B1DFADDD10091D5AA /* Competiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915E98A1DFADDD10091D5AA /* Competiton.swift */; };
+		891B091A1E24F9D800253B79 /* OutCompetionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891B09191E24F9D800253B79 /* OutCompetionDetailViewController.swift */; };
+		89202A661E04009900C07DA0 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89202A651E04009900C07DA0 /* Group.swift */; };
+		89202A681E04051F00C07DA0 /* TeamDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89202A671E04051F00C07DA0 /* TeamDao.swift */; };
+		89202A6A1E04054900C07DA0 /* CompetitionDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89202A691E04054900C07DA0 /* CompetitionDao.swift */; };
+		89202A6C1E040B4B00C07DA0 /* BaseDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89202A6B1E040B4B00C07DA0 /* BaseDao.swift */; };
+		89202A6E1E040B6300C07DA0 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89202A6D1E040B6300C07DA0 /* DBHelper.swift */; };
+		898585001E0BFDEA000A5073 /* TeamInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898584FF1E0BFDEA000A5073 /* TeamInfoViewController.swift */; };
+		898585021E0BFF04000A5073 /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898585011E0BFF04000A5073 /* TeamDetailViewController.swift */; };
+		899C39611E2A17AF004B06BB /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899C39601E2A17AF004B06BB /* GroupTableViewController.swift */; };
+		89AB787D1E28F91E00012E16 /* TopCompetionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB787C1E28F91E00012E16 /* TopCompetionDetailViewController.swift */; };
+		89C8BA3F1E1E33A000967C17 /* OutCompetionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8BA3E1E1E33A000967C17 /* OutCompetionViewController.swift */; };
+		89C8BA411E1E392C00967C17 /* OutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8BA401E1E392C00967C17 /* OutCollectionViewCell.swift */; };
+		89CB4BAD1E13A024004A1F55 /* GroupCompetionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB4BAC1E13A024004A1F55 /* GroupCompetionViewController.swift */; };
+		89CB4BAF1E13B4AD004A1F55 /* FantasticCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB4BAE1E13B4AD004A1F55 /* FantasticCollectionViewController.swift */; };
+		89CB4BB11E13BD5B004A1F55 /* FantasticViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB4BB01E13BD5B004A1F55 /* FantasticViewCell.swift */; };
+		89CC1DD81E07D49F00EC1774 /* TeamBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC1DD71E07D49F00EC1774 /* TeamBL.swift */; };
+		89CC1DDA1E07D88900EC1774 /* CompetitionBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CC1DD91E07D88900EC1774 /* CompetitionBL.swift */; };
+		89DF8BB81E2654C200F5C0DE /* PicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF8BB71E2654C200F5C0DE /* PicDetailViewController.swift */; };
+		89DF8BBA1E265DE100F5C0DE /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DF8BB91E265DE100F5C0DE /* Asset.xcassets */; };
+		89E2C7B41E14ACD700CA1403 /* PictureCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C7B31E14ACD700CA1403 /* PictureCollectionViewController.swift */; };
+		89E2C7B61E14B4EF00CA1403 /* PictureViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C7B51E14B4EF00CA1403 /* PictureViewCell.swift */; };
+		89E581EC1E28BF0800369398 /* TopCompetionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E581EB1E28BF0800369398 /* TopCompetionViewController.swift */; };
+		89E84EA51E2E3EDE007D5F30 /* GroupPicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E84EA41E2E3EDE007D5F30 /* GroupPicViewController.swift */; };
+		89EE00FF1E0D4BAB00520BA2 /* CompetionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE00FE1E0D4BAB00520BA2 /* CompetionViewController.swift */; };
+		89EE01021E0D53C600520BA2 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89EE01011E0D53C600520BA2 /* DBConfig.plist */; };
+		89EE01041E0D5B5300520BA2 /* create_info.sql in Resources */ = {isa = PBXBuildFile; fileRef = 89EE01031E0D5B5300520BA2 /* create_info.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +66,6 @@
 		8915E9531DFACEC40091D5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8915E9551DFACEC40091D5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8915E9581DFACEC40091D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8915E95A1DFACEC40091D5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8915E95D1DFACEC40091D5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8915E95F1DFACEC40091D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8915E9641DFACEC40091D5AA /* NokiaFootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NokiaFootballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +74,36 @@
 		8915E96F1DFACEC40091D5AA /* NokiaFootballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NokiaFootballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8915E9731DFACEC40091D5AA /* NokiaFootballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NokiaFootballUITests.swift; sourceTree = "<group>"; };
 		8915E9751DFACEC40091D5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8915E9821DFAD37C0091D5AA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8915E9881DFADDBB0091D5AA /* FootballTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootballTeam.swift; sourceTree = "<group>"; };
+		8915E98A1DFADDD10091D5AA /* Competiton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competiton.swift; sourceTree = "<group>"; };
+		891B09191E24F9D800253B79 /* OutCompetionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutCompetionDetailViewController.swift; sourceTree = "<group>"; };
+		89202A651E04009900C07DA0 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		89202A671E04051F00C07DA0 /* TeamDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDao.swift; sourceTree = "<group>"; };
+		89202A691E04054900C07DA0 /* CompetitionDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitionDao.swift; sourceTree = "<group>"; };
+		89202A6B1E040B4B00C07DA0 /* BaseDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDao.swift; sourceTree = "<group>"; };
+		89202A6D1E040B6300C07DA0 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		89202A6F1E041DD200C07DA0 /* NokiaFootball-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NokiaFootball-Bridging-Header.h"; sourceTree = "<group>"; };
+		898584FF1E0BFDEA000A5073 /* TeamInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
+		898585011E0BFF04000A5073 /* TeamDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
+		899C39601E2A17AF004B06BB /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		89AB787C1E28F91E00012E16 /* TopCompetionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCompetionDetailViewController.swift; sourceTree = "<group>"; };
+		89C8BA3E1E1E33A000967C17 /* OutCompetionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutCompetionViewController.swift; sourceTree = "<group>"; };
+		89C8BA401E1E392C00967C17 /* OutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutCollectionViewCell.swift; sourceTree = "<group>"; };
+		89CB4BAC1E13A024004A1F55 /* GroupCompetionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCompetionViewController.swift; sourceTree = "<group>"; };
+		89CB4BAE1E13B4AD004A1F55 /* FantasticCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticCollectionViewController.swift; sourceTree = "<group>"; };
+		89CB4BB01E13BD5B004A1F55 /* FantasticViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticViewCell.swift; sourceTree = "<group>"; };
+		89CC1DD71E07D49F00EC1774 /* TeamBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamBL.swift; sourceTree = "<group>"; };
+		89CC1DD91E07D88900EC1774 /* CompetitionBL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitionBL.swift; sourceTree = "<group>"; };
+		89DF8BB71E2654C200F5C0DE /* PicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicDetailViewController.swift; sourceTree = "<group>"; };
+		89DF8BB91E265DE100F5C0DE /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		89E2C7B31E14ACD700CA1403 /* PictureCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewController.swift; sourceTree = "<group>"; };
+		89E2C7B51E14B4EF00CA1403 /* PictureViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewCell.swift; sourceTree = "<group>"; };
+		89E581EB1E28BF0800369398 /* TopCompetionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCompetionViewController.swift; sourceTree = "<group>"; };
+		89E84EA41E2E3EDE007D5F30 /* GroupPicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPicViewController.swift; sourceTree = "<group>"; };
+		89EE00FE1E0D4BAB00520BA2 /* CompetionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetionViewController.swift; sourceTree = "<group>"; };
+		89EE01011E0D53C600520BA2 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		89EE01031E0D5B5300520BA2 /* create_info.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_info.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8915E9831DFAD37C0091D5AA /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +135,10 @@
 		8915E9471DFACEC40091D5AA = {
 			isa = PBXGroup;
 			children = (
+				89202A6F1E041DD200C07DA0 /* NokiaFootball-Bridging-Header.h */,
+				8915E9851DFAD3C30091D5AA /* Business Logic Layer */,
+				8915E9841DFAD3B40091D5AA /* Persistence Layer */,
+				8915E9821DFAD37C0091D5AA /* libsqlite3.0.tbd */,
 				8915E9521DFACEC40091D5AA /* NokiaFootball */,
 				8915E9671DFACEC40091D5AA /* NokiaFootballTests */,
 				8915E9721DFACEC40091D5AA /* NokiaFootballUITests */,
@@ -97,12 +159,28 @@
 		8915E9521DFACEC40091D5AA /* NokiaFootball */ = {
 			isa = PBXGroup;
 			children = (
+				89DF8BB91E265DE100F5C0DE /* Asset.xcassets */,
 				8915E9531DFACEC40091D5AA /* AppDelegate.swift */,
 				8915E9551DFACEC40091D5AA /* ViewController.swift */,
 				8915E9571DFACEC40091D5AA /* Main.storyboard */,
-				8915E95A1DFACEC40091D5AA /* Assets.xcassets */,
 				8915E95C1DFACEC40091D5AA /* LaunchScreen.storyboard */,
 				8915E95F1DFACEC40091D5AA /* Info.plist */,
+				898584FF1E0BFDEA000A5073 /* TeamInfoViewController.swift */,
+				898585011E0BFF04000A5073 /* TeamDetailViewController.swift */,
+				89EE00FE1E0D4BAB00520BA2 /* CompetionViewController.swift */,
+				89CB4BAC1E13A024004A1F55 /* GroupCompetionViewController.swift */,
+				89CB4BAE1E13B4AD004A1F55 /* FantasticCollectionViewController.swift */,
+				89CB4BB01E13BD5B004A1F55 /* FantasticViewCell.swift */,
+				89E2C7B31E14ACD700CA1403 /* PictureCollectionViewController.swift */,
+				89E2C7B51E14B4EF00CA1403 /* PictureViewCell.swift */,
+				89C8BA3E1E1E33A000967C17 /* OutCompetionViewController.swift */,
+				89C8BA401E1E392C00967C17 /* OutCollectionViewCell.swift */,
+				891B09191E24F9D800253B79 /* OutCompetionDetailViewController.swift */,
+				89DF8BB71E2654C200F5C0DE /* PicDetailViewController.swift */,
+				89E581EB1E28BF0800369398 /* TopCompetionViewController.swift */,
+				89AB787C1E28F91E00012E16 /* TopCompetionDetailViewController.swift */,
+				899C39601E2A17AF004B06BB /* GroupTableViewController.swift */,
+				89E84EA41E2E3EDE007D5F30 /* GroupPicViewController.swift */,
 			);
 			path = NokiaFootball;
 			sourceTree = "<group>";
@@ -123,6 +201,55 @@
 				8915E9751DFACEC40091D5AA /* Info.plist */,
 			);
 			path = NokiaFootballUITests;
+			sourceTree = "<group>";
+		};
+		8915E9841DFAD3B40091D5AA /* Persistence Layer */ = {
+			isa = PBXGroup;
+			children = (
+				89EE01001E0D53B200520BA2 /* DBFile */,
+				8915E9871DFADD990091D5AA /* domain */,
+				8915E9861DFADD920091D5AA /* dao */,
+			);
+			name = "Persistence Layer";
+			sourceTree = "<group>";
+		};
+		8915E9851DFAD3C30091D5AA /* Business Logic Layer */ = {
+			isa = PBXGroup;
+			children = (
+				89CC1DD71E07D49F00EC1774 /* TeamBL.swift */,
+				89CC1DD91E07D88900EC1774 /* CompetitionBL.swift */,
+			);
+			name = "Business Logic Layer";
+			sourceTree = "<group>";
+		};
+		8915E9861DFADD920091D5AA /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				89202A671E04051F00C07DA0 /* TeamDao.swift */,
+				89202A691E04054900C07DA0 /* CompetitionDao.swift */,
+				89202A6B1E040B4B00C07DA0 /* BaseDao.swift */,
+				89202A6D1E040B6300C07DA0 /* DBHelper.swift */,
+			);
+			name = dao;
+			sourceTree = "<group>";
+		};
+		8915E9871DFADD990091D5AA /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				8915E9881DFADDBB0091D5AA /* FootballTeam.swift */,
+				8915E98A1DFADDD10091D5AA /* Competiton.swift */,
+				89202A651E04009900C07DA0 /* Group.swift */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		89EE01001E0D53B200520BA2 /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				89EE01031E0D5B5300520BA2 /* create_info.sql */,
+				89EE01011E0D53C600520BA2 /* DBConfig.plist */,
+			);
+			name = DBFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EE01021E0D53C600520BA2 /* DBConfig.plist in Resources */,
 				8915E95E1DFACEC40091D5AA /* LaunchScreen.storyboard in Resources */,
-				8915E95B1DFACEC40091D5AA /* Assets.xcassets in Resources */,
+				89EE01041E0D5B5300520BA2 /* create_info.sql in Resources */,
+				89DF8BBA1E265DE100F5C0DE /* Asset.xcassets in Resources */,
 				8915E9591DFACEC40091D5AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +385,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CB4BAD1E13A024004A1F55 /* GroupCompetionViewController.swift in Sources */,
+				89202A6A1E04054900C07DA0 /* CompetitionDao.swift in Sources */,
+				898585001E0BFDEA000A5073 /* TeamInfoViewController.swift in Sources */,
+				8915E9891DFADDBB0091D5AA /* FootballTeam.swift in Sources */,
+				89C8BA411E1E392C00967C17 /* OutCollectionViewCell.swift in Sources */,
+				8915E98B1DFADDD10091D5AA /* Competiton.swift in Sources */,
 				8915E9561DFACEC40091D5AA /* ViewController.swift in Sources */,
+				89CC1DD81E07D49F00EC1774 /* TeamBL.swift in Sources */,
+				898585021E0BFF04000A5073 /* TeamDetailViewController.swift in Sources */,
+				89E2C7B61E14B4EF00CA1403 /* PictureViewCell.swift in Sources */,
+				89202A6E1E040B6300C07DA0 /* DBHelper.swift in Sources */,
+				899C39611E2A17AF004B06BB /* GroupTableViewController.swift in Sources */,
+				89DF8BB81E2654C200F5C0DE /* PicDetailViewController.swift in Sources */,
+				89AB787D1E28F91E00012E16 /* TopCompetionDetailViewController.swift in Sources */,
+				891B091A1E24F9D800253B79 /* OutCompetionDetailViewController.swift in Sources */,
+				89202A661E04009900C07DA0 /* Group.swift in Sources */,
+				89E84EA51E2E3EDE007D5F30 /* GroupPicViewController.swift in Sources */,
+				89E581EC1E28BF0800369398 /* TopCompetionViewController.swift in Sources */,
+				89CB4BAF1E13B4AD004A1F55 /* FantasticCollectionViewController.swift in Sources */,
+				89C8BA3F1E1E33A000967C17 /* OutCompetionViewController.swift in Sources */,
+				89CC1DDA1E07D88900EC1774 /* CompetitionBL.swift in Sources */,
 				8915E9541DFACEC40091D5AA /* AppDelegate.swift in Sources */,
+				89CB4BB11E13BD5B004A1F55 /* FantasticViewCell.swift in Sources */,
+				89EE00FF1E0D4BAB00520BA2 /* CompetionViewController.swift in Sources */,
+				89E2C7B41E14ACD700CA1403 /* PictureCollectionViewController.swift in Sources */,
+				89202A681E04051F00C07DA0 /* TeamDao.swift in Sources */,
+				89202A6C1E040B4B00C07DA0 /* BaseDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NokiaFootball-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -412,6 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51.work6.NokiaFootball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NokiaFootball-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +638,7 @@
 				8915E97A1DFACEC40091D5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8915E97B1DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootballTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +647,7 @@
 				8915E97D1DFACEC40091D5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8915E97E1DFACEC40091D5AA /* Build configuration list for PBXNativeTarget "NokiaFootballUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +656,7 @@
 				8915E9801DFACEC40091D5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

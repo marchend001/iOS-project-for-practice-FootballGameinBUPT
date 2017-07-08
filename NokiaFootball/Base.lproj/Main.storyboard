@@ -1,25 +1,522 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zom-E9-xRp">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Team Detail View Controller-->
+        <scene sceneID="IdT-kd-LrO">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tqf-NR-ib2" customClass="TeamDetailViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="MFr-AH-5Ck"/>
+                        <viewControllerLayoutGuide type="bottom" id="top-pw-seF"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="a4p-XX-gX2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cho-S7-1Ls" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-188" y="1867"/>
+        </scene>
+        <!--Group Competion View Controller-->
+        <scene sceneID="tlE-xC-sjz">
+            <objects>
+                <viewController storyboardIdentifier="Group" id="MYN-Gd-yNM" customClass="GroupCompetionViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZMz-ir-BK5"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKJ-BX-fqH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fNx-Tw-4rY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hy1-J7-yRN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="1867"/>
+        </scene>
+        <!--Out Competion View Controller-->
+        <scene sceneID="fpF-vI-ewt">
+            <objects>
+                <collectionViewController storyboardIdentifier="Out" id="zM7-Ig-7VK" customClass="OutCompetionViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="PO0-GE-RdZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ChQ-rr-x1f">
+                            <size key="itemSize" width="320" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="3"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ahK-G9-GOd" customClass="OutCollectionViewCell" customModule="NokiaFootball" customModuleProvider="target">
+                                <rect key="frame" x="140" y="0.0" width="320" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nEH-Av-Yq0">
+                                            <rect key="frame" x="0.0" y="2" width="320" height="148"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="imageView" destination="nEH-Av-Yq0" id="IEJ-dk-6Vi"/>
+                                    <segue destination="Sfn-il-g5A" kind="show" identifier="showOutCompetion" id="v0v-6E-6ce"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="zM7-Ig-7VK" id="Onz-iX-ibh"/>
+                            <outlet property="delegate" destination="zM7-Ig-7VK" id="7i1-CG-msZ"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSh-Pm-h5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1195" y="1867"/>
+        </scene>
+        <!--Top Competion View Controller-->
+        <scene sceneID="u6J-VW-bro">
+            <objects>
+                <tableViewController storyboardIdentifier="Top" id="CmN-Eg-0m9" customClass="TopCompetionViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Y3i-bX-CVG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="gyv-QO-cUL">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gyv-QO-cUL" id="gQu-ZC-o0e">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="GvV-wF-bSA" kind="show" identifier="showTopDetail" id="qa3-Il-5Vs"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CmN-Eg-0m9" id="Boy-d2-PsN"/>
+                            <outlet property="delegate" destination="CmN-Eg-0m9" id="jRy-et-LXu"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fe4-tS-c2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1867" y="1867"/>
+        </scene>
+        <!--Group Table View Controller-->
+        <scene sceneID="S5Q-vt-eGb">
+            <objects>
+                <tableViewController storyboardIdentifier="GroupCom" id="lyL-T5-POu" customClass="GroupTableViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="mql-Wq-jNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="lL5-GT-fNG">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lL5-GT-fNG" id="D1Z-Jj-9ag">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Bv0-JQ-5RT" kind="show" identifier="showGroup" id="wdH-Ww-Ncb"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lyL-T5-POu" id="hqo-pf-cLT"/>
+                            <outlet property="delegate" destination="lyL-T5-POu" id="eI9-L7-V0O"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aNz-e1-i9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2551" y="1867"/>
+        </scene>
+        <!--Top Competion Detail View Controller-->
+        <scene sceneID="vUL-CL-vJ2">
+            <objects>
+                <viewController id="Bv0-JQ-5RT" customClass="TopCompetionDetailViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u8N-Z8-z4d"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Z2-de-PSC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HnQ-TN-gk1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RBJ-7B-7Tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2529" y="2633"/>
+        </scene>
+        <!--Top Competion Detail View Controller-->
+        <scene sceneID="0uF-yr-qwX">
+            <objects>
+                <viewController id="GvV-wF-bSA" customClass="TopCompetionDetailViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zwQ-45-2Ha"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zsq-Y1-gC2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NmE-YW-Dsh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vn8-Vp-Ub9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1867" y="2633"/>
+        </scene>
+        <!--Out Competion Detail View Controller-->
+        <scene sceneID="cuM-h3-hVY">
+            <objects>
+                <viewController id="Sfn-il-g5A" customClass="OutCompetionDetailViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9KC-92-WgH"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnF-RN-Cwm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9QP-Z6-tZK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2I-Xd-koq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1195" y="2633"/>
+        </scene>
+        <!--球队介绍-->
+        <scene sceneID="dkD-Ng-fDM">
+            <objects>
+                <tableViewController id="2eD-zA-CZd" customClass="TeamInfoViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cHh-dx-3r7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellIdentifier" id="ef0-zd-9Iv">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ef0-zd-9Iv" id="fUZ-sA-LDp">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Tqf-NR-ib2" kind="show" identifier="showDetail" id="ZQx-rl-qui"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2eD-zA-CZd" id="hL3-uP-DVx"/>
+                            <outlet property="delegate" destination="2eD-zA-CZd" id="Gcp-hI-xKs"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="球队介绍" id="w0W-Sq-E2V"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhC-m5-CIj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188" y="1141"/>
+        </scene>
+        <!--NokiaCup-->
+        <scene sceneID="2z6-NY-icH">
+            <objects>
+                <viewController id="DjX-rl-qWi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZCY-8h-Uit"/>
+                        <viewControllerLayoutGuide type="bottom" id="tTG-iS-Dbn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cdy-1C-W0j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="zBv-L3-Orf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zBv-L3-Orf" secondAttribute="trailing" id="7zI-2K-cr1"/>
+                            <constraint firstItem="zBv-L3-Orf" firstAttribute="bottom" secondItem="tTG-iS-Dbn" secondAttribute="top" id="Lsa-j0-dDV"/>
+                            <constraint firstItem="zBv-L3-Orf" firstAttribute="leading" secondItem="Cdy-1C-W0j" secondAttribute="leading" id="V0N-6o-ZBg"/>
+                            <constraint firstItem="zBv-L3-Orf" firstAttribute="top" secondItem="Cdy-1C-W0j" secondAttribute="top" id="piy-OT-3fg"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="NokiaCup" id="VxV-bN-ASt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCp-Fv-sWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-883" y="247"/>
+        </scene>
+        <!--球队介绍-->
+        <scene sceneID="U6A-FS-SC9">
+            <objects>
+                <navigationController id="FNm-x3-cGf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="球队介绍" id="gir-Ge-m1B"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f2W-bn-0NE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2eD-zA-CZd" kind="relationship" relationship="rootViewController" id="1JA-bT-hPr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gq3-8Q-PiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-195" y="247"/>
+        </scene>
+        <!--比赛情况-->
+        <scene sceneID="d37-dU-7jO">
+            <objects>
+                <tableViewController id="5yI-EA-lOa" customClass="CompetionViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="W0m-3u-Pw5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellIdentifier" id="ibl-Sy-Hj7">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ibl-Sy-Hj7" id="Fu4-F7-gLg">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5yI-EA-lOa" id="Pxw-4B-yhj"/>
+                            <outlet property="delegate" destination="5yI-EA-lOa" id="plF-Bw-Uu4"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="比赛情况" id="nk7-Ja-qey"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BCq-0F-bAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450" y="1141"/>
+        </scene>
+        <!--赛况-->
+        <scene sceneID="Mm3-HC-juo">
+            <objects>
+                <navigationController id="YWk-9k-HeJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="赛况" id="neV-f6-ELs"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lyC-Ef-TAs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5yI-EA-lOa" kind="relationship" relationship="rootViewController" id="onm-Xu-NrN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBp-SF-vnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="241"/>
+        </scene>
+        <!--精彩瞬间-->
+        <scene sceneID="gxk-vY-Rmw">
+            <objects>
+                <navigationController id="fl3-8s-gho" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="精彩瞬间" id="Xh8-a2-eEq"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UVQ-ZV-Amr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XzO-Kh-Jc7" kind="relationship" relationship="rootViewController" id="6oR-Xp-dLw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NvZ-YS-DFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1101" y="241"/>
+        </scene>
+        <!--精彩瞬间-->
+        <scene sceneID="kuP-mE-JY3">
+            <objects>
+                <collectionViewController id="XzO-Kh-Jc7" customClass="FantasticCollectionViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nva-6B-tGl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hlQ-br-DC5">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="BcB-Iv-iKK" customClass="FantasticViewCell" customModule="NokiaFootball" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XKa-fT-BGw">
+                                            <rect key="frame" x="9" y="0.0" width="133" height="111"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHu-X6-L8m">
+                                            <rect key="frame" x="30" y="121" width="90" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="XKa-fT-BGw" firstAttribute="trailing" secondItem="BcB-Iv-iKK" secondAttribute="trailingMargin" id="CZJ-fA-SQ0"/>
+                                    <constraint firstItem="qHu-X6-L8m" firstAttribute="centerX" secondItem="BcB-Iv-iKK" secondAttribute="centerX" id="L25-fn-Ncl"/>
+                                    <constraint firstItem="qHu-X6-L8m" firstAttribute="centerX" secondItem="XKa-fT-BGw" secondAttribute="centerX" id="USM-Js-PUl"/>
+                                    <constraint firstItem="qHu-X6-L8m" firstAttribute="bottom" secondItem="BcB-Iv-iKK" secondAttribute="bottomMargin" id="XgQ-Bd-aLh"/>
+                                    <constraint firstItem="qHu-X6-L8m" firstAttribute="top" secondItem="XKa-fT-BGw" secondAttribute="bottom" constant="10" id="b57-jz-d8l"/>
+                                    <constraint firstItem="qHu-X6-L8m" firstAttribute="leading" secondItem="BcB-Iv-iKK" secondAttribute="leadingMargin" constant="22" id="ctc-S5-Rte"/>
+                                    <constraint firstItem="XKa-fT-BGw" firstAttribute="top" secondItem="BcB-Iv-iKK" secondAttribute="top" id="ibx-zm-NAo"/>
+                                </constraints>
+                                <size key="customSize" width="150" height="150"/>
+                                <connections>
+                                    <outlet property="imageView" destination="XKa-fT-BGw" id="hIV-mE-PS3"/>
+                                    <outlet property="label" destination="qHu-X6-L8m" id="bDC-uR-aDI"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="XzO-Kh-Jc7" id="UPe-eY-YRp"/>
+                            <outlet property="delegate" destination="XzO-Kh-Jc7" id="cJX-k9-6Zn"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="精彩瞬间" id="M0T-7z-q5S"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L95-C8-U8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1885" y="241"/>
+        </scene>
+        <!--Picture Collection View Controller-->
+        <scene sceneID="Awy-eG-n4b">
+            <objects>
+                <collectionViewController storyboardIdentifier="PicCollection" id="w0B-WZ-Vrv" customClass="PictureCollectionViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ccR-cO-SxT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="2" id="iUt-F7-vdg">
+                            <size key="itemSize" width="155" height="130"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="2" minY="0.0" maxX="2" maxY="2"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="EtE-gf-SQP" customClass="PictureViewCell" customModule="NokiaFootball" customModuleProvider="target">
+                                <rect key="frame" x="2" y="0.0" width="155" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="155" height="130"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S9I-dU-9Do">
+                                            <rect key="frame" x="0.0" y="0.0" width="155" height="130"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="imageView" destination="S9I-dU-9Do" id="k86-NZ-1Vt"/>
+                                    <segue destination="XaP-fb-kHR" kind="show" identifier="showPictureDetail" id="3nM-WR-GXb"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="w0B-WZ-Vrv" id="g4J-5v-Miy"/>
+                            <outlet property="delegate" destination="w0B-WZ-Vrv" id="NA5-oY-dlb"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fjH-2I-NTF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2559" y="241"/>
+        </scene>
+        <!--Group Pic View Controller-->
+        <scene sceneID="itI-zg-Jnd">
+            <objects>
+                <tableViewController storyboardIdentifier="GroupPicCollection" id="qFj-Hf-FsH" customClass="GroupPicViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rDg-cY-BOy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="41M-ce-fUU">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="41M-ce-fUU" id="zIq-VB-mbJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qFj-Hf-FsH" id="qZk-BE-ZeE"/>
+                            <outlet property="delegate" destination="qFj-Hf-FsH" id="CgY-Qs-xjX"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vfQ-ZY-VUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1885" y="955"/>
+        </scene>
+        <!--Pic Detail View Controller-->
+        <scene sceneID="oOw-d9-dEs">
+            <objects>
+                <viewController id="XaP-fb-kHR" customClass="PicDetailViewController" customModule="NokiaFootball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4jl-8y-PjU"/>
+                        <viewControllerLayoutGuide type="bottom" id="oMT-aS-Avc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j3Q-2N-lTy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YS6-Jg-d74" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3275" y="247"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mhZ-yP-0Rr">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Zom-E9-xRp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="2yz-fd-85j">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FNm-x3-cGf" kind="relationship" relationship="viewControllers" id="DgF-h7-p6k"/>
+                        <segue destination="YWk-9k-HeJ" kind="relationship" relationship="viewControllers" id="VZI-jd-6XC"/>
+                        <segue destination="DjX-rl-qWi" kind="relationship" relationship="viewControllers" id="MFQ-D8-GW8"/>
+                        <segue destination="fl3-8s-gho" kind="relationship" relationship="viewControllers" id="zeB-V2-zM6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNg-wf-ZyF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81" y="-534"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="182" height="272"/>
+    </resources>
 </document>
